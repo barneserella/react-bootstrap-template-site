@@ -8,8 +8,8 @@ function ShopCards() {
         <Row className="gx-0">
             <Col md={3}>
             
-                <Card className="bg-dark text-white shop-card">
-                <div className="shop-card-content">
+                <Card className="bg-dark text-white shop-card shop-card-content">
+                
                 <Card.Img src="/gold.jpeg" alt="Card image" />
                 <Card.ImgOverlay>
       
@@ -17,12 +17,12 @@ function ShopCards() {
       
       
                 </Card.ImgOverlay>
-                </div>
+                
                 </Card>
               
             </Col>
             <Col md={3}>
-                <Card className="bg-dark text-white shop-card">
+                <Card className="bg-dark text-white shop-card shop-card-content">
                 <Card.Img src="/gold.jpeg" alt="Card image" />
                 <Card.ImgOverlay>
       
@@ -34,7 +34,7 @@ function ShopCards() {
             </Col>
             <Col md={3}>
                 <Card className="bg-dark text-white shop-card">
-                    <div className="shop-card-content">
+                    
                 <Card.Img src="/gold.jpeg" alt="Card image" />
                 <Card.ImgOverlay >
                 
@@ -43,7 +43,7 @@ function ShopCards() {
       
       
                 </Card.ImgOverlay>
-                </div>
+                
                 </Card>
             </Col>
             <Col md={3}>

@@ -8,7 +8,7 @@ function PromoCards() {
             <Row className="gx-0">
                 <Col xs={12} md={7}>
                     <Card 
-                        className="promo-card cash-gold"
+                        className="promo-card promo-card-1 cash-gold"
                         style= {{
                              backgroundImage: `url(${goldImage})`,
                         
@@ -24,7 +24,7 @@ function PromoCards() {
                 </Col>
                 <Col xs={12} md={5}>
                     <Card 
-                        className="promo-card approved-by-us"
+                        className="promo-card promo-card-2 approved-by-us"
                         style= {{
                             backgroundImage: `url(${goldImage})`,
                             
