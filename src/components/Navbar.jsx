@@ -23,7 +23,7 @@ function GoldNavbar() {
             <Navbar.Brand href="#" className='fw-bold text-uppercase'>Got Gold, Get Cash</Navbar.Brand>
             
             {/* Empty div for alignment */}
-            <div style={{ width: "40px" }} ></div>
+            <div style={{ width: "60px" }} ></div>
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-false`}
               aria-labelledby='offcanvasNavbar'

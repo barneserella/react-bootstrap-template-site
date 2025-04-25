@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <GoldNavbar />
+      <GoldNavbar fixed="top" />
       <Hero button1='Info' button2='New' />
       <Hero button1='Info' button2='New' />
       <Hero button1='Info' button2='New' />
