@@ -9,14 +9,14 @@ function ProductScroll() {
             
                 <div className="card-wrapper">
                     
-                    <Col><PictureCard /></Col>
-                    <Col><Cards /></Col>
-                    <Col><Cards /></Col>
-                    <Col><Cards /></Col>
-                    <Col><Cards /></Col>
-                    <Col><Cards /></Col>
-                    <Col><Cards /></Col>
-                    <Col><Cards /></Col>
+                    <Col xs={12} md={6}><PictureCard /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
+                    <Col xs={6} md={3}><Cards /></Col>
                     
                 </div>
             

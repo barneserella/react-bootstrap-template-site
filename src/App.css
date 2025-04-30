@@ -13,16 +13,16 @@ body {
 /* Navbar Styling */
 
 .navbar{
-  margin: 0 10px;
+  /* margin: 0 10px; */
   border-radius: 5px;
-  padding: 10px 20px;
+  /* padding: 10px 10px; */
   position: fixed;
   width: 100%;
-  top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  /* top: 10px; */
+  /* left: 50%; */
+  /* transform: translateX(-50%); */
   font-weight: bold;
-  z-index:10;
+  /* z-index:10; */
 }
 
 .navbar-toggler {
@@ -70,12 +70,13 @@ body {
 
 .card-style {
   height: 80vh;
-  width: 20vw;
+  width: 100%;
   text-wrap: wrap;
   text-align: center;
   background-size: cover;
 
 }
+
 
 
 
@@ -197,13 +198,13 @@ section {
   margin-bottom: 15px;
 }
 
-button {
+/* button {
   font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
   width: 170px;
   margin-bottom: 10px;
-}
+} */
 
 .gx-0 {
   --bs-gutter-x: 0;
@@ -311,4 +312,32 @@ button {
 .subscribe-now {
   display: flex;
   align-items: center;
+}
+
+@media(max-width: 500px){
+  .navbar {
+    flex-wrap: nowrap;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+    margin-left: 10px;
+  }
+  .navbar-alignment-div {
+    width: 40px;
+  }
+
+  .navbar-toggler {
+    width: 40px;
+  }
+
+  .navbar-toggler-icon {
+    width: 30px;
+    margin-left: -5px;
+    padding: 0;
+  }
+
+  .card-button {
+    width: 100%;
+    font-size: 0.8rem;
+  }
 }
