@@ -1,5 +1,5 @@
 import Cards from "./Card";
-import {  Row, Col, Container } from "react-bootstrap";
+import { Col, Container } from "react-bootstrap";
 import PictureCard from "./PictureCard";
 
 function ProductScroll() {
@@ -9,7 +9,7 @@ function ProductScroll() {
             
                 <div className="card-wrapper">
                     
-                    <Col xs={12} md={6}><PictureCard /></Col>
+                    <Col xs={12} md={6} xl={3}><PictureCard /></Col>
                     <Col xs={6} md={3}><Cards /></Col>
                     <Col xs={6} md={3}><Cards /></Col>
                     <Col xs={6} md={3}><Cards /></Col>
