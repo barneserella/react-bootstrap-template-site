@@ -202,13 +202,14 @@ section {
   font-size: 1rem;
   font-weight: bold;
   padding: 10px 20px;
-  width: 170px;
+  width: 150px;
   margin-bottom: 10px;
 } */
 
 .gx-0 {
   --bs-gutter-x: 0;
 }
+
 @media (max-width: 768px) {
   .hero-section {
     height: 75vh;
@@ -233,6 +234,7 @@ section {
   .store-card {
     height: 90vh;
     margin: 10px 0;
+    margin-bottom: 40px;
   }
   .store-card-overlay {
     height: auto;
@@ -245,8 +247,14 @@ section {
   }
 }
 
+.store-card  {
+  height: 600px;
+  margin: 10px;
+}
+
 .store-card img {
   height: 600px;
+  margin: 10px;
 }
 .store-card-overlay {
   height: auto;
